@@ -1,0 +1,26 @@
+{
+    "name": "kaream/contact",
+    "description": "this for sending email to admin and save contact query in datbase",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kaream\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KareamFareg",
+            "email": "myfdev1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karim\\Contact\\contactServiceProvider"
+            ]
+        }
+    }
+}
