@@ -13,13 +13,10 @@ class contactServiceProvider extends ServiceProvider{
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->mergeConfigFrom(__DIR__.'/config/contact.php','contact');
         $this->publishes([
-            __DIR__.'/config/contact.php'=>config_path('contact.php')
-        ]);
-        $this->publishes([
-            __DIR__.'/database/migrations/'=>database_path('migrations')
-        ]);
-        $this->publishes([
-            __DIR__.'/public' => public_path('Kaream/contacts'),'public'
+            __DIR__.'/config/contact.php'=>config_path('contact.php'),
+            __DIR__.'/database/migrations/'=>database_path('migrations'),
+            __DIR__.'/public' => public_path('Kaream/contacts'),
+            __DIR__.'/views' => resource_path('views/Kaream/contact')
         ]);
     }
 }
