@@ -16,7 +16,7 @@ class contactServiceProvider extends ServiceProvider{
             __DIR__.'/config/contact.php'=>config_path('contact.php'),
             __DIR__.'/database/migrations/'=>database_path('migrations'),
             __DIR__.'/public' => public_path('Kaream/contacts'),
-            __DIR__.'/views' => resource_path('views/Kaream/contact')
+            __DIR__.'/views' => resource_path('views/Kaream/contact'),
         ]);
     }
 }
