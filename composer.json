@@ -1,6 +1,6 @@
 {
     "name": "kaream/contact",
-    "description": "this for sending email to admin and save contact query in datbase",
+    "description": "this for sending email to admin and save contact query in database",
     "type": "library",
     "license": "MIT",
     "autoload": {

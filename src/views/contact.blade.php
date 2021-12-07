@@ -1,43 +1,7 @@
-{{--<!DOCTYPE HTML>--}}
-
-{{--<html>--}}
-{{--<head>--}}
-{{--      <meta charset="UTF-8">--}}
-{{--    <title>Contact Us</title>--}}
-{{--</head>--}}
-{{--<style>--}}
-{{--    h1{--}}
-
-{{--    }--}}
-{{--    form{--}}
-{{--        text-align: center;--}}
-{{--    }--}}
-{{--</style>--}}
-{{--<body>--}}
-{{--    <div class="container">--}}
-{{--        <div class="row">--}}
-{{--            <div class="col-md-12">--}}
-{{--                <h1 >You Can Send any Message To Admin</h1>--}}
-{{--                <form action="{{route('contact')}}" method="post">--}}
-{{--                    <label>Name</label><input type="text" class="name" placeholder="Type Your name " name="name" autocomplete="">--}}
-{{--                    <label>Message</label><textarea  class="message" name="message" placeholder="Type your Message"></textarea>--}}
-{{--                    <label>Email</label><input type="email" name="email" class="email" placeholder="ex:example@example.com" autocomplete="">--}}
-{{--                    <input type="submit" value="Send">--}}
-{{--                </form>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-
-
-
-{{--</body>--}}
-{{--</html>--}}
-
-
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Contact Form 03</title>
+    <title>Contact Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -45,7 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="{{asset('contacts/assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('Kaream/contacts/assets/css/style.css')}}">
 
 </head>
 <body>
@@ -138,7 +102,7 @@
                         </div>
                         <div class="col-md-5 d-flex align-items-stretch">
 
-                            <div class="info-wrap w-100 p-5 img" style="background-image: url({{asset('contacts/assets/images/img.jpg')}})">
+                            <div class="info-wrap w-100 p-5 img" style="background-image: url({{asset('Kaream/contacts/assets/images/img.jpg')}})">
                             </div>
                         </div>
                     </div>
@@ -148,11 +112,11 @@
     </div>
 </section>
 
-<script src="{{asset('contacts/assets/js/jquery.min.js')}}"></script>
-<script src="{{asset('contacts/assets/js/popper.js')}}"></script>
-<script src="{{asset('contacts/assets/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('contacts/assets/js/jquery.validate.min.js')}}"></script>
-<script src="{{asset('contacts/assets/js/main.js')}}"></script>
+<script src="{{asset('Kaream/contacts/assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('Kaream/contacts/assets/js/popper.js')}}"></script>
+<script src="{{asset('Kaream/contacts/assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('Kaream/contacts/assets/js/jquery.validate.min.js')}}"></script>
+<script src="{{asset('Kaream/contacts/assets/js/main.js')}}"></script>
 
 </body>
 </html>
